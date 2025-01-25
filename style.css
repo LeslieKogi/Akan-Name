@@ -1,5 +1,5 @@
 h1{
-    color:rgba(247, 3, 3, 0.986);
+    color:rgba(255, 0, 0, 0.993);
     padding-top: 1rem;
     padding-left: 2rem;;
     font-size: 35px;
@@ -22,3 +22,25 @@ body {
         linear-gradient(90deg, rgba(139, 148, 127, 0.7) 0%, rgba(132, 151, 203, 0.5) 50%, rgba(122, 134, 123, 0.7) 100%),
         url("./images/background.jpg");
 }
+
+/*form*/
+  form {
+      background: #15bec4b7;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+  }
+
+  h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+  }
+
+  label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+  }
