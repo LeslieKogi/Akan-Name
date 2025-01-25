@@ -22,14 +22,15 @@ body {
     background:
         linear-gradient(90deg, rgba(139, 148, 127, 0.7) 0%, rgba(132, 151, 203, 0.5) 50%, rgba(122, 134, 123, 0.7) 100%),
         url("./images/background.jpg");
+        
 }
 
 /*form*/
   form {
-      background: #ff04044b;
+      background: #ff040486;
       padding: 30px;
       border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 6px rgba(187, 94, 94, 0.966);
       max-width: 400px;
       width: 100%;
   }
@@ -37,11 +38,38 @@ body {
   h2 {
       text-align: center;
       margin-bottom: 20px;
-      color: #333;
+      color: #0f0f0f;
+      font-size: 35px;
   }
 
   label {
       display: block;
       margin-bottom: 5px;
       font-weight: bold;
+      font-size: 25px;
   }
+  input[type="date"],
+  select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+input[type=text]{
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+    }
+button{
+    
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+}
