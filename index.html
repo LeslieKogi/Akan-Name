@@ -21,11 +21,19 @@
 </head>
 <body>
     <form>
-        <h1>Fill this form</h1>
+        <h2>Fill this form</h2>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <label for="Birthday">Birthday</label>
+        <input type="date">
+        <label for="Gender">Gender</label>
+        <select id="Gender" name="gender" required>
+            <option value="">Select your gender</option>
+             <option value="male"></option>
+             <option value="female"></option>
 
-        
+        </select>
+        <button type="submit">Submit</button>
     </form>
         <script src="main.js"></script>
     </body>
