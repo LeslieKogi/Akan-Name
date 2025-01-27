@@ -1,45 +1,27 @@
 h1{
-    color:rgba(255, 12, 154, 0.993);
+    color:rgba(189, 151, 173, 0.993);
     padding-top: 1rem;
-    padding-left: 2rem;;
     font-size: 35px;
-}
-
-
-div p{
-color: rgb(255, 253, 254);
-font-size: 35px;
-text-align: left;
-/
-
-
 }
 div{
     text-align: center;
 }
 
 body {
-    background:
-        linear-gradient(90deg, rgba(139, 148, 127, 0.7) 0%, rgba(132, 151, 203, 0.5) 50%, rgba(122, 134, 123, 0.7) 100%),
+background: linear-gradient(90deg, rgba(139, 148, 127, 1) 0%, rgba(132, 151, 203, 0.38699229691876746) 58%, rgba(190, 200, 191, 1) 71%);
     
 }
 
 /*form*/
-  form {
+form {
       background: #ff040486;
       padding: 30px;
       border-radius: 8px;
       box-shadow: 0 4px 6px rgba(187, 94, 94, 0.966);
-      max-width: 400px;
-      width: 100%;
+      /*max-width: 400px;*/
+      width: 50%
   }
 
-  h2 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: #0f0f0f;
-      font-size: 35px;
-  }
 
   label {
       display: block;
@@ -47,17 +29,17 @@ body {
       font-weight: bold;
       font-size: 25px;
   }
-  input[type="date"],
-  select {
-      width: 100%;
+  input[type="date"]
+   {
+      width: 70%;
       padding: 10px;
       margin-bottom: 15px;
       border: 1px solid #ccc;
       border-radius: 5px;
       font-size: 16px;
   }
-input[type=text]{
-width: 100%;
+div select{
+width: 50%;
 padding: 10px;
 margin-bottom: 15px;
 border: 1px solid #ccc;
