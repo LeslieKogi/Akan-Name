@@ -6,8 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
  </head>
-    <body>
-        <header>
+<body>
+ <header>
         <div><h1>AKAN NAMES</h1></div>
         <div>
             <p>
@@ -15,27 +15,29 @@
                 gender. Akan names are traditional Ghanaian names given to individuals based on the day of the week they were born.
             </p>
         </div>
-        </header>
-      
-    </style>
-</head>
-<body>
-    <form id="akan form">
-        <h2>Fill this form</h2>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+</header>
+    <main>
+    <div class="container">
+          <div class="form-group">
+            <label>Enter birthday</label>
+            <input placeholder="Enter birthdate" class="form-control" type="date" id="birthdate">
+        </div>
+        <div class="form-group">
+            <label> Select gender</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary">Generate Akan name</button>
+        </div>
+        </form>
+    </div>
+        </main>
         
-        <label for="Birthday">Birthday</label>
-        <input type="date" id="Birthday" name="Birthday"required> 
-        
-        <label for="gender">Gender:</label>
-        <select id="gender" name="gender" required>
-            <option value="">Select your gender</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-        </select>
-        <button type="submit">Submit</button>
-    </form>
         <script src="main.js"></script>
     </body>
 </html>
+
