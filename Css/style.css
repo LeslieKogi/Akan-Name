@@ -6,6 +6,9 @@ h1{
 div{
     text-align: center;
 }
+div p{
+    font-size: 30px;
+}
 
 body {
 background: linear-gradient(90deg, rgba(139, 148, 127, 1) 0%, rgba(132, 151, 203, 0.38699229691876746) 58%, rgba(190, 200, 191, 1) 71%);
@@ -14,14 +17,14 @@ background: linear-gradient(90deg, rgba(139, 148, 127, 1) 0%, rgba(132, 151, 203
 
 /*form*/
 form {
-      background: #ff040486;
-      padding: 30px;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(187, 94, 94, 0.966);
-      /*max-width: 400px;*/
-      width: 50%
-  }
-
+    background: #d4c7c786;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(187, 94, 94, 0.966);
+    /*max-width: 400px;*/
+    width: 50%
+    
+}
 
   label {
       display: block;
