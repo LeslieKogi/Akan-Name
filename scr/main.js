@@ -28,5 +28,19 @@ function usersinput(){
 determineAkanName(year,month,day,gender)
 }
 function determineAkanName(year,month,day,gender){
-console.log("From the determineAkanName function",year,month,day,gender)
+console.log("From the determineAkanName function",year,month,day,gender);
+
+//Extractions for CC and YY
+const CC=Math.floor(year/100)
+const YY=year%100;
+
+//Extractions for day
+const d = Math.floor(((CC / 4) - (2 * CC) - 1 + (5 * YY / 4) + (26 * (month + 1) / 10) + day) % 7);
+
+   // Ensure day of the week (d) is positive
+   const dayOfWeek = (d + 7) % 7;
+
+   
+
 }
+
