@@ -17,12 +17,12 @@ background: linear-gradient(90deg, rgba(139, 148, 127, 1) 0%, rgba(132, 151, 203
 
 /*form*/
 form {
-    background: #d4c7c786;
+    background: #d4c7c762;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(187, 94, 94, 0.966);
-    /*max-width: 400px;*/
     width: 50%
+
     
 }
 
@@ -45,7 +45,7 @@ div select{
 width: 50%;
 padding: 10px;
 margin-bottom: 15px;
-border: 1px solid #ccc;
+border: 1px solid #bd7979;
 border-radius: 5px;
 font-size: 16px;
     }
@@ -58,5 +58,5 @@ button{
         font-size: 16px;
 }
 button:hover {
-    background-color: #fa95d8;
+    background-color: #d87eba;
 }
