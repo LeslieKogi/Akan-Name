@@ -31,3 +31,29 @@ The Akan Names website is an interactive tool that determines an individual's Ak
   - Saturday: Ama
 
 ## Project Structure
+  Akan names
+   -index.html
+   -scr
+     -main.js
+   -Css
+     -style.css
+   -README.md  
+
+ ## Installation and Usage
+  1. **Clone the Repository**:
+  2. **Open the project and navigate to index.html file**
+  3.**Run locally**
+
+ ## Technologies used
+1.HTML-to structure of the website
+2.Css-to style the website
+3.Java script-for calculations
+
+## License
+This project is open-source and available under the MIT License.
+
+## Author
+  Leslie Kogi  
+  Github:  https://github.com/lesliekogi
+  Email: lesliekogi@gmail.com
+
