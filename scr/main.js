@@ -40,7 +40,24 @@ const d = Math.floor(((CC / 4) - (2 * CC) - 1 + (5 * YY / 4) + (26 * (month + 1)
    // Ensure day of the week (d) is positive
    const dayOfWeek = (d + 7) % 7;
 
-   
+  // Akan names by gender and day of the week
+  const akanNamesMale = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  const akanNamesFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];  
+
+    // Select the Akan name based on gender
+    let akanName;
+    if (gender.toLowerCase() === "male") {
+        akanName = akanNamesMale[dayOfWeek];
+    } else if (gender.toLowerCase() === "female") {
+        akanName = akanNamesFemale[dayOfWeek];
+    } else {
+        alert("Invalid gender provided!");
+        return;
+    }
+
+     // Display the Akan name
+     alert(`Your Akan name is ${akanName}`);
+
 
 }
 
